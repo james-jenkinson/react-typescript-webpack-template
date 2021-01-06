@@ -3,7 +3,7 @@ import reactDom from 'react-dom'
 
 const App: React.FC = () => (
   <>
-    Hello world
+    Hello foo bar foo bar
   </>
 )
 
