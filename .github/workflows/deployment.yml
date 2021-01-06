@@ -17,5 +17,9 @@ jobs:
         run: npm install
       - name: Build code
         run: npm run build
+      - name: Setup git
+        run: |
+          git config --global user.name 'Continuous Integration'
+          git config --global user.email '<>'
       - name: Deploy code
         run: npm run deploy
