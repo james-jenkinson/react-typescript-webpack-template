@@ -1,7 +1,7 @@
 import React from 'react'
 import reactDom from 'react-dom'
 
-const App = () => (
+const App: React.FC = () => (
   <>
     Hello world
   </>
